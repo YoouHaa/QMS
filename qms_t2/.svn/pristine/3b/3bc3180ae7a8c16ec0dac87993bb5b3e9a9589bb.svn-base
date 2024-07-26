@@ -1,0 +1,11 @@
+package com.qms.login.dao;
+
+import org.mybatis.spring.annotation.MapperScan;
+
+import com.qms.table.vo.user.UserInfoVO;
+
+@MapperScan(basePackages="com.qms.login.dao")
+public interface LoginDao {
+	
+	public UserInfoVO selectUserInfo(UserInfoVO vo) throws Exception;
+}

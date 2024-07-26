@@ -1,0 +1,19 @@
+package com.qms.table.vo.item;
+
+import lombok.Data;
+
+@Data
+public class ItemInfoVO {
+	private String itemCd;
+	private String itemName;
+	private String itemType;
+	private String unitType;
+	private String hscode;
+	private String boxType;
+	private String boxQty;
+	private String weight;
+	private String palntLine;
+	private String unitPrice;
+	private String location;
+	private String subconYn;
+}
